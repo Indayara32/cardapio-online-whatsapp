@@ -1,2 +1,2 @@
-
-Site de delivery para a lanchonete com cardápio digital, carrinho de compras e envio automático de pedidos via WhatsApp. Inclui cálculo de taxas de entrega e opções de pagamento.
+.
+🍟 Cardápio online (frontend) para lanchonete, com carrinho de compras e envio automático do pedido via WhatsApp. Demo ao vivo: https://indayara32.github.io/cardapio-online-whatsapp/
