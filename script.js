@@ -1,6 +1,6 @@
 let carrinho = [];
 const taxaEntrega = 5.00; // << MUDE AQUI O VALOR DA ENTREGA
-const numeroWhatsApp = "5521993282079"; // << SEU WHATSAPP COM DDD E 55
+const numeroWhatsApp = "SEU_WHATSAPP_AQUI"; // << COLOQUE O WHATSAPP DO CLIENTE COM DDD E 55
 
 // ADICIONAR ITEM AO CARRINHO
 function adicionarCarrinho(nome, preco) {
@@ -61,7 +61,7 @@ document.getElementById('btn-whatsapp').addEventListener('click', () => {
     return;
   }
 
-  let mensagem = "🍟 *NOVO PEDIDO - Frank Batatas* 🍟%0A%0A";
+  let mensagem = "🍟 *NOVO PEDIDO - Cardápio Online* 🍟%0A%0A"; // << TITULO GENERICO
   mensagem += "*ITENS:*%0A";
   
   carrinho.forEach(item => {
